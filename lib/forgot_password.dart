@@ -25,12 +25,12 @@ class ForgotPassword extends StatelessWidget{
                   );
                 },
                 icon: Icon(Icons.arrow_back,)),
-            Padding(padding: EdgeInsets.only(top: 51,)),
+            Padding(padding: EdgeInsets.only(top: 28,)),
             Text('Forgot Password', style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),),
             Padding(padding: EdgeInsets.only(top: 11)),
             Text('Please enter your email below to receive your password reset instructions', style: TextStyle(fontSize: 16,
                 color: Color.fromRGBO(155, 155, 155, 1)),),
-            Padding(padding: EdgeInsets.only(top: 40)),
+            Padding(padding: EdgeInsets.only(top: 25)),
             Text('Username', style: TextStyle(fontSize: 20,fontWeight: FontWeight.w400)),
             Padding(padding: EdgeInsets.only(top: 2)),
             TextField(
